@@ -5,7 +5,6 @@
             font-family: Arial, Arial, Helvetica, sans-serif;
         }
 
-        /* Judul */
         header {
             padding: 20px;
         }
@@ -24,7 +23,6 @@
             color: #1e73d8
         }
 
-        /* Navbar */
         nav {
             background: #1e73d8;
         }

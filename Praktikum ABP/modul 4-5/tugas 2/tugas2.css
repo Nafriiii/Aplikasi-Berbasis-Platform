@@ -1,0 +1,38 @@
+body {
+    background-image: url("Kuta.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-box {
+    background: rgb(255, 255, 255);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+}
+
+.profile-box h1 {
+    font-weight: bold;
+    color: #000000;
+}
+
+.profile-box img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid rgb(14, 70, 173);
+    object-fit: cover;
+}
+
+.table {
+    background: #ffffff;
+}
+table th, table td {
+    text-align: left;
+}

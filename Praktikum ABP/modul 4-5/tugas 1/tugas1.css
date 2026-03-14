@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+}
+header {
+    padding: 20px;
+}
+body{
+    background-color: rgb(25, 125, 138);
+}
+header h1 {
+            font-size: 32px;
+            font-weight: bold;
+        }
+header .title {
+            color: rgb(255, 255, 255)
+            
+        }
+label{
+    color:rgb(255, 255, 255) ;
+    
+}
