@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  height: 100vh;
+
+  font-family: Arial, sans-serif;
+  text-align: center;
+
+  background: url("ramadhan.jpg") no-repeat center/cover;
+}
+
+.container {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 20px;
+
+  background: rgba(255, 255, 255, 0.711);
+
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+input,
+button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #1197d4;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #0d7fb3;
+}
