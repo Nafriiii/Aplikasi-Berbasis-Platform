@@ -1,0 +1,114 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BACKGROUND */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(135deg, #1316e8, #448ccc);
+}
+
+/* CARD */
+.profile-card {
+    width: 400px; 
+    padding: 25px 20px;
+    border-radius: 20px;
+
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+
+    text-align: center;
+    color: white;
+
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.profile-card:hover {
+    transform: translateY(-5px);
+}
+
+.img-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.profile-img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+
+    border: 3px solid white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+h2 {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.role {
+    font-size: 13px;
+    opacity: 0.8;
+    margin-bottom: 12px;
+}
+
+.desc {
+    font-size: 13px;
+    line-height: 1.5;
+    opacity: 0.9;
+    margin-bottom: 18px;
+
+}
+
+/* BUTTON GROUP */
+.btn-group {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    flex: 1;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.primary {
+    background: linear-gradient(135deg, #ffffff, #dbeafe);
+    color: #1e3a8a;
+    font-weight: bold;
+}
+
+.primary:hover {
+    background: linear-gradient(135deg, #1e40af, #3b82f6);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.secondary {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.secondary:hover {
+    background: linear-gradient(135deg, #ffffff, #e0f2fe);
+    color: #1e3a8a;
+    transform: translateY(-2px);
+}
