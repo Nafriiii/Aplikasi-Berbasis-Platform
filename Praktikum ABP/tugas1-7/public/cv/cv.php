@@ -1,5 +1,4 @@
 <?php
-// DATA DINAMIS (bisa dari database nanti)
 $nama = "Irfan Thoriq Habibi";
 $email = "irfanthoriq012@gmail.com";
 $phone = "0813-3719-5915";
