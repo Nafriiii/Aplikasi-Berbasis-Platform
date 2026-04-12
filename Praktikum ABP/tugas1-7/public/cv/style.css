@@ -11,7 +11,6 @@ body {
     background: #f4f6f9;
 }
 
-/* ================= SIDEBAR ================= */
 .sidebar {
     background: #1e3a8a;
     min-height: 100vh;
@@ -32,7 +31,6 @@ body {
     transform: scale(1.05);
 }
 
-/* SECTION TITLE KIRI */
 .section-title {
     font-weight: 600;
     margin-bottom: 12px;
@@ -41,14 +39,12 @@ body {
     letter-spacing: 1px;
 }
 
-/* TEXT SIDEBAR */
 .sidebar p,
 .sidebar li {
     font-size: 14px;
     margin-bottom: 6px;
 }
 
-/* LIST SKILL */
 .sidebar ul {
     padding-left: 0;
 }
@@ -65,13 +61,11 @@ body {
     left: 0;
 }
 
-/* ================= MAIN CONTENT ================= */
 .main-content {
     background: #ffffff;
     padding: 50px;
 }
 
-/* HEADER */
 .main-content h1 {
     font-size: 32px;
 }
@@ -80,7 +74,6 @@ body {
     letter-spacing: 2px;
 }
 
-/* SECTION TITLE KANAN */
 .section-title-dark {
     font-weight: 600;
     margin-bottom: 12px;
@@ -89,14 +82,12 @@ body {
     letter-spacing: 1px;
 }
 
-/* PARAGRAF */
 .main-content p {
     font-size: 15px;
     line-height: 1.6;
     color: #444;
 }
 
-/* PROJECT ITEM */
 .main-content h6.fw-bold {
     margin-bottom: 2px;
 }
@@ -105,7 +96,6 @@ body {
     font-size: 13px;
 }
 
-/* ================= RESPONSIVE ================= */
 @media (max-width: 768px) {
 
     .sidebar {

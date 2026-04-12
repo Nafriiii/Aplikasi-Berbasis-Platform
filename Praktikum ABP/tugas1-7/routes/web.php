@@ -6,7 +6,7 @@ Route::get('/', function () {
     return view('profile');
 });
 
-Route::get('/profile', function () {
+Route::get('/profile-page', function () {
     return view('profile');
 });
 

@@ -1,9 +1,17 @@
+<?php
+// DATA DINAMIS (bisa dari database nanti)
+$nama = "Irfan Thoriq Habibi";
+$email = "irfanthoriq012@gmail.com";
+$phone = "0813-3719-5915";
+$alamat = "Lombok Timur, NTB";
+?>
+
 <!DOCTYPE html>
 <html lang="id">
 
 <head>
     <meta charset="UTF-8">
-    <title>CV - Irfan Thoriq Habibi</title>
+    <title>CV - <?php echo $nama; ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap -->
@@ -29,9 +37,9 @@
                 <!-- KONTAK -->
                 <div class="mb-4">
                     <h5 class="section-title">Contact</h5>
-                    <p>📧 irfanthoriq012@gmail.com</p>
-                    <p>📱 0813-3719-5915</p>
-                    <p>📍 Lombok Timur, NTB</p>
+                    <p>📧 <?php echo $email; ?></p>
+                    <p>📱 <?php echo $phone; ?></p>
+                    <p>📍 <?php echo $alamat; ?></p>
                 </div>
 
                 <!-- SKILLS -->
@@ -63,7 +71,7 @@
             <div class="col-md-8 p-5 main-content">
 
                 <h6 class="text-uppercase text-muted">Web Developer</h6>
-                <h1 class="fw-bold">Irfan Thoriq Habibi</h1>
+                <h1 class="fw-bold"><?php echo $nama; ?></h1>
 
                 <div class="mt-4">
                     <h5 class="section-title-dark">Profile</h5>
@@ -74,7 +82,6 @@
                         memastikan kualitas dan fungsionalitas aplikasi berjalan dengan baik.
                         Selain itu, saya juga terus mengembangkan kemampuan dalam pengolahan dan
                         analisis data untuk menghasilkan insight yang bermanfaat.
-
                     </p>
                 </div>
 
@@ -88,7 +95,6 @@
                             merancang struktur aplikasi yang terorganisir. Bertanggung jawab dalam pembuatan fitur login
                             dan autentikasi pengguna.Menggunakan MySQL sebagai database dengan integrasi JDBC untuk 
                             memastikan pengelolaan data berjalan secara efisien dan aman.
-
                         </p>
                     </div>
 
@@ -102,7 +108,6 @@
                             verifikasi alur data dari backend ke view, pengujian kompatibilitas lintas perangkat, serta
                             dokumentasi dan pelaporan bug menggunakan Git/GitHub untuk memastikan aplikasi berjalan
                             sesuai kebutuhan.
-
                         </p>
                     </div>
                 </div>
@@ -112,6 +117,7 @@
         </div>
     </div>
 
-</body>
+    <script src="script.js"></script>
 
+</body>
 </html>
