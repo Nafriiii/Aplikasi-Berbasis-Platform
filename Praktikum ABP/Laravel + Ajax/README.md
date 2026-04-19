@@ -1,4 +1,4 @@
-# 📚 Data Mahasiswa - Laravel (Tanpa Database)
+# PENJELASAN
 
 ## 🗂️ Struktur Project
 
@@ -84,37 +84,6 @@ Digunakan untuk mengambil data dari route `/get-mahasiswa` tanpa reload halaman.
 2. buka http://127.0.0.1:8000 di browser
 3. akan muncul tampilan dengan judul "Data Mahasiswa"
 4. Data mahasiswa akan muncul tanpa reload
-
----
-
-## ⚠️ Catatan
-
-* Project ini **tidak menggunakan database**
-* Data diambil dari file JSON lokal
-* Pastikan file JSON berada di:
-
-```
-public/data/mahasiswa.json
-```
-
----
-
-## 👨‍💻 Teknologi yang Digunakan
-
-* Laravel
-* Blade Template
-* jQuery (AJAX)
-* Bootstrap (UI)
-
----
-
-## ✅ Kesimpulan
-
-Project ini menunjukkan implementasi sederhana:
-
-* Laravel tanpa database
-* Penggunaan AJAX
-* Pengolahan data JSON
 
 ---
 
