@@ -1,5 +1,4 @@
-## NAMA : Irfan Thoriq Habibi
-## NIM : 2311102131
+## Irfan Thoriq Habibi - 2311102131
 # PENJELASAN
 
 ## 🗂️ Struktur Project
