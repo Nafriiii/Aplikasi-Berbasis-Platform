@@ -85,13 +85,8 @@ Digunakan untuk mengambil data dari route `/get-mahasiswa` tanpa reload halaman.
 1. tulis "php artisan serve" pada terminal
 2. buka http://127.0.0.1:8000 di browser
 3. akan muncul tampilan dengan judul "Data Mahasiswa"
-<img src="assets/foto1.png" width="600">
+<img src="assets/f1.png">
 4. Data mahasiswa akan muncul tanpa reload
-<img src="assets/foto2.png" width="600">
+<img src="assets/f12.png">
 
 ---
-
-## ✨ Author
-
-Nama: Irfan Thoriq Habibi
-NIM: 2311102131
