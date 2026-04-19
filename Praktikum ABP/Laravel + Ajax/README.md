@@ -87,6 +87,6 @@ Digunakan untuk mengambil data dari route `/get-mahasiswa` tanpa reload halaman.
 3. akan muncul tampilan dengan judul "Data Mahasiswa"
 <img src="assets/f1.png">
 4. Data mahasiswa akan muncul tanpa reload
-<img src="assets/f12.png">
+<img src="assets/f2.png">
 
 ---
