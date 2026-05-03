@@ -52,8 +52,8 @@ Untuk menginstall extension, klik icon disamping, lalu pilih extension yang diin
 ## MODUL 2 - PENGENALAN FLUTTER
 
 ### Apa Itu Flutter
-Apa itu flutter? Flutter adalah platform yang digunakan untuk membuat aplikasi multiplatform dengan satu basis coding (codebase). Artinya, aplikasi yang dihasilkan dapat dipakai di berbagai platform, baik mobile Android, iOS, web, maupun desktop. Flutter memiliki dua komponen penting, yaitu: 
-•	SKD menjadi komponen penting karena berisi sekumpulan tools untuk membuat aplikasi agar bisa dijalankan di berbagai platform.  
+Apa itu flutter? Flutter adalah platform yang digunakan untuk membuat aplikasi multiplatform dengan satu basis coding (codebase). Artinya, aplikasi yang dihasilkan dapat dipakai di berbagai platform, baik mobile Android, iOS, web, maupun desktop. Flutter memiliki dua komponen penting, yaitu: <br>
+•	SKD menjadi komponen penting karena berisi sekumpulan tools untuk membuat aplikasi agar bisa dijalankan di berbagai platform.  <br>
 •	Sedangkan Framework UI merupakan komponen UI untuk kustomisasi aplikasi sesuai kebutuhan.
 
 
