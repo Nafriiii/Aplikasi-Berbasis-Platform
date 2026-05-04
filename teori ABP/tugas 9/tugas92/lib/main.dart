@@ -70,7 +70,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           ),
                         ),
                         Text(
-                          "2311102151 - Irfan Thoriq Habibi \nPS1IF-11-REG04 \nTUGAS 9.2 LAYOUT 3 ABP",
+                          "2311102131 - Irfan Thoriq Habibi \nPS1IF-11-REG04 \nTUGAS 9.2 LAYOUT 3 ABP",
                           style: TextStyle(
                             fontSize: 14,
                             fontWeight: FontWeight.w500,
